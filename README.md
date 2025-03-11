@@ -1,4 +1,4 @@
-AA
+121212AA
 
 # Podsumowanie Repozytorium – System Pożyczek
 Repozytorium zawiera kompletną dokumentację i przykłady implementacji systemu obsługującego proces udzielania pożyczek. Celem projektu jest stworzenie przejrzystego materiału edukacyjnego dla pracowników, 
