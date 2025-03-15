@@ -39,22 +39,20 @@ System umożliwia kompleksową obsługę wniosku o udzielenie pożyczki, dzielą
   - **Dodatkowe dokumenty:**
     - Załączniki potwierdzające pozyskane dane lub uzupełniające informacje.
 
-## 3. Weryfikacja Tożsamości i Autentyczności Dokumentów
-- **Weryfikacja aplikanta:**
+## 3. Weryfikacja Tożsamości i Autentyczności Dokumentów - aplikanta
+
+- **Weryfikacja aplikanta:**  
   - **Rola aplikanta:**  
     Proces weryfikacji dokumentów i tożsamości realizowany jest przez dedykowanego aplikanta (np. księgową), która sprawdza zgodność przesłanych dokumentów z danymi pobranymi z rejestrów.
-- **Weryfikacja dokumentów:**
+- **Weryfikacja dokumentów:**  
   - **Kontrola autentyczności:**  
-    Przesłanie i weryfikacja skanów dokumentów rejestrowych, finansowych oraz dokumentów potwierdzających tożsamość osób reprezentujących firmę.
-- **Proces reprezentanta:**
-  - **Dla JDG (jednoosobowa działalność gospodarcza):**  
-    Weryfikacja i potwierdzenie tożsamości właściciela, który pełni jednocześnie funkcję reprezentanta. Proces ten jest wysyłany do właściciela w celu zatwierdzenia.
-  - **Dla spółek:**  
-    Weryfikacja obejmuje wszystkich reprezentantów wskazanych w danych pobranych z KRS. Każdy z reprezentantów musi potwierdzić swoją tożsamość i akceptację dokumentów, co gwarantuje pełną autoryzację.
-- **Weryfikacja biometryczna (opcjonalnie):**
-  - Wykorzystanie metod biometrycznych (np. zdjęcie lub wideo weryfikacyjne) w celu dodatkowego potwierdzenia tożsamości aplikanta oraz reprezentantów.
+    Przesłanie i weryfikacja skanów dokumentów rejestrowych, finansowych oraz dokumentów potwierdzających tożsamość osób związanych z firmą.
 
-## 4. Wewnętrzna Analiza Ryzyka i Ocena Zdolności Kredytowej
+## 4. Weryfikacja tożsamości reprezentantów 
+- **Uruchomienie dodatkowego procesu – Weryfikacja Reprezentanta:**  
+  - Proces ten jest uruchamiany niezależnie w celu potwierdzenia tożsamości osób reprezentujących firmę. Dla jednoosobowej działalności gospodarczej (JDG) obejmuje weryfikację właściciela, natomiast dla spółek – wszystkich reprezentantów wskazanych w danych pobranych z KRS. Proces opisany poniżej
+
+## 5. Wewnętrzna Analiza Ryzyka i Ocena Zdolności Kredytowej
 - **Dodatkowe zgody:**
   - Uzyskanie zgód od klienta na odpytanie wywiadowni kredytowych (BIG, BIK, KRD oraz innych baz).
 - **Silnik decyzyjny:**
@@ -64,7 +62,7 @@ System umożliwia kompleksową obsługę wniosku o udzielenie pożyczki, dzielą
 - **Analiza manualna (opcjonalnie):**
   - Weryfikacja wyników przez zespół analityków, szczególnie w przypadku nietypowych sytuacji.
 
-## 5. Przygotowanie Oferty Kredytowej
+## 6. Przygotowanie Oferty Kredytowej
 - **Generowanie propozycji:**
   - Ustalenie warunków pożyczki – kwoty, okresu spłaty, oprocentowania, prowizji.
 - **Wstępny projekt umowy:**
@@ -72,13 +70,13 @@ System umożliwia kompleksową obsługę wniosku o udzielenie pożyczki, dzielą
 - **Weryfikacja oferty wewnętrzna:**
   - Przegląd oferty przez dział prawny oraz finansowy pod kątem zgodności z regulacjami oraz polityką firmy.
 
-## 6. Zatwierdzenie Decyzji Kredytowej
+## 7. Zatwierdzenie Decyzji Kredytowej
 - **Decyzja kredytowa:**
   - Finalna decyzja o udzieleniu pożyczki, podejmowana przez kierownictwo lub komisję kredytową, na podstawie wyników analizy ryzyka.
 - **Rejestracja decyzji:**
   - Dokumentacja wewnętrzna decyzji oraz zapis wyników analizy dla celów archiwizacji.
 
-## 7. Prezentacja Oferty Klientowi
+## 8. Prezentacja Oferty Klientowi
 - **Komunikacja:**
   - Przekazanie szczegółowej oferty kredytowej wraz z warunkami pożyczki.
 - **Negocjacje:**
@@ -86,7 +84,7 @@ System umożliwia kompleksową obsługę wniosku o udzielenie pożyczki, dzielą
 - **Akceptacja oferty:**
   - Potwierdzenie warunków przez firmę pożyczkową oraz klienta.
 
-## 8. Finalizacja Umowy i Formalności
+## 9. Finalizacja Umowy i Formalności
 - **Podpisanie umowy:**
   - Elektroniczne (lub tradycyjne) podpisanie umowy przez wszystkie upoważnione strony.
 - **Ostateczna weryfikacja:**
@@ -94,13 +92,13 @@ System umożliwia kompleksową obsługę wniosku o udzielenie pożyczki, dzielą
 - **Archiwizacja:**
   - Zabezpieczenie i archiwizacja dokumentacji umowy.
 
-## 9. Wypłata Środków
+## 10. Wypłata Środków
 - **Realizacja przelewu:**
   - Przelew ustalonej kwoty na wskazane konto firmowe.
 - **Harmonogram spłat:**
   - Generowanie harmonogramu spłat, udostępnianego klientowi oraz monitorowanego przez system.
 
-## 10. Monitorowanie Spłat i Obsługa Posprzedażowa
+## 11. Monitorowanie Spłat i Obsługa Posprzedażowa
 - **Monitoring spłat:**
   - Regularne sprawdzanie terminowości spłat przez system oraz interwencje zespołu windykacyjnego, gdy zajdzie taka potrzeba.
 - **Obsługa klienta:**
@@ -108,6 +106,34 @@ System umożliwia kompleksową obsługę wniosku o udzielenie pożyczki, dzielą
 - **Aktualizacja danych:**
   - Regularna aktualizacja profilu firmy oraz generowanie wewnętrznych raportów dotyczących portfela kredytowego.
 
+
+---
+
+## Proces Weryfikacji Reprezentanta
+
+Proces ten jest dodatkowym modułem, który zapewnia, że osoby uprawnione do reprezentowania firmy są właściwie zweryfikowane i zatwierdzone. Opis poszczególnych etapów:
+
+1. **Inicjacja Procesu:**
+   - System identyfikuje typ podmiotu (JDG lub spółka) oraz pobiera dane reprezentantów z rejestrów (np. KRS, CEIDG).
+   - Na tej podstawie generowany jest unikalny link lub powiadomienie, wysyłane do reprezentantów z prośbą o weryfikację.
+
+2. **Przesyłanie Dokumentów:**
+   - Reprezentanci otrzymują żądanie przesłania dokumentów potwierdzających ich tożsamość (np. dowód osobisty, paszport) oraz dokumentów potwierdzających pełnienie funkcji reprezentanta.
+   - W przypadku JDG, właściciel przesyła wymagane dokumenty i zatwierdza swoją tożsamość.
+
+3. **Weryfikacja Tożsamości:**
+   - Aplikacja porównuje przesłane dokumenty z danymi pobranymi z rejestrów publicznych.
+   - Opcjonalnie, wykorzystywane są metody biometryczne, takie jak weryfikacja zdjęciowa lub wideo, w celu dodatkowego potwierdzenia autentyczności.
+
+4. **Akceptacja i Potwierdzenie:**
+   - Po pozytywnej weryfikacji, reprezentanci potwierdzają swoją zgodę na warunki oraz autentyczność przesłanych dokumentów.
+   - Wynik weryfikacji jest zapisywany w systemie, co umożliwia dalsze przetwarzanie wniosku o pożyczkę.
+
+5. **Powiadomienie:**
+   - Po zakończeniu procesu, zarówno reprezentanci, jak i wnioskodawca otrzymują informację o pomyślnym zakończeniu weryfikacji.
+   - Weryfikacja reprezentanta jest niezbędnym warunkiem do przejścia do kolejnych etapów procesu udzielania pożyczki.
+  
+   
 
 ## Podsumowanie Funkcjonalności
 Modularność: Każdy serwis realizuje określone zadanie, co ułatwia utrzymanie i rozwój systemu.
