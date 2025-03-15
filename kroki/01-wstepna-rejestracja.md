@@ -76,12 +76,13 @@ Przykładowy Response z Repozytorium Zgód
 ## Widok przy pomocy dynamic-forms
 
 ### Struktura widoku w pliku Excel
-![image](https://github.com/user-attachments/assets/454bd260-c7c0-4c08-b8e0-a387f542dee8)
+![image](https://github.com/user-attachments/assets/3f9d8f4e-07cf-43cb-b745-c0016687741f)
+
 
 ### Widok 
-![image](https://github.com/user-attachments/assets/5c47245f-526c-468b-b956-3028bf4d6054)
+![image](https://github.com/user-attachments/assets/8e8c7a79-79bb-4e2a-984c-199151afcd5a)
 
-wersja mobilna
-![image](https://github.com/user-attachments/assets/f43b4cc6-94bd-4d43-8948-f7921000a6d9)
+![image](https://github.com/user-attachments/assets/ead01e0f-093e-4e75-8379-4d3c3509de39)
 
 
+Więcej o Dynamic Forms https://agidot.eu/produkty/dynamic-forms/
