@@ -47,12 +47,12 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
 ## 3. Weryfikacja Tożsamości i Autentyczności Dokumentów – Aplikanta [Aplikant]
 - **Opis:**  
   Klient przesyła niezbędne dokumenty, a dedykowany aplikant (np. księgowa) weryfikuje ich autentyczność oraz zgodność z danymi pobranymi z rejestrów.
-- **Etapy:**  
-  - **Przesyłanie dokumentów przez klienta:**  
-    Skany dokumentów rejestrowych, finansowych i dokumentów potwierdzających tożsamość.
-  - **Weryfikacja przez aplikanta:**  
-    Dedykowany pracownik sprawdza zgodność i autentyczność przesłanych dokumentów.
-
+  Sprawdzanie odbywa się na podstawie odpytanie serwisu BIK
+- **Dane:**  
+  - PESEL  
+  - Numer i seria dowodu
+  - Data ważności dowodu
+  
 
 ## 4. Weryfikacja Tożsamości Reprezentantów [Reprezentanci]
 - **Opis:**  
@@ -63,8 +63,10 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
   1. **Inicjacja:**  
      - System identyfikuje typ podmiotu i pobiera dane reprezentantów.  
      - Wysyłany jest unikalny link lub powiadomienie do reprezentantów z prośbą o weryfikację.
-  2. **Przesyłanie Dokumentów:**  
-     - Reprezentanci przesyłają dokumenty potwierdzające ich tożsamość (np. dowód osobisty, paszport) oraz dokumenty potwierdzające pełnienie funkcji.
+  2. - **Dane:**  
+      - PESEL  
+      - Numer i seria dowodu
+      - Data ważności dowodu
   3. **Weryfikacja Tożsamości:**  
      - System porównuje przesłane dokumenty z danymi z rejestrów publicznych.  
      - Opcjonalnie stosowane są metody biometryczne (zdjęcie, wideo).
