@@ -72,3 +72,16 @@ Przykładowy Response z Repozytorium Zgód
   ]
 }
 ```
+
+## Widok przy pomocy dynamic-forms
+
+### Struktura widoku w pliku Excel
+![image](https://github.com/user-attachments/assets/454bd260-c7c0-4c08-b8e0-a387f542dee8)
+
+### Widok 
+![image](https://github.com/user-attachments/assets/5c47245f-526c-468b-b956-3028bf4d6054)
+
+wersja mobilna
+![image](https://github.com/user-attachments/assets/f43b4cc6-94bd-4d43-8948-f7921000a6d9)
+
+
