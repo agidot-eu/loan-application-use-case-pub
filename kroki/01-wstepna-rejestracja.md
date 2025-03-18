@@ -26,6 +26,30 @@ System łączy się z repozytorium zgód, które zwraca listę zgód startowych 
   - **Zgoda na otrzymywanie wiadomości e-mail:**  
     [ ] Wyrażam zgodę na otrzymywanie wiadomości e-mail zawierających informacje o produktach, aktualnościach oraz ofertach marketingowych.
 
+
+```
+dynamic-forms
+sekcja
+ h3 Pożyczka online
+sekcja
+ h5 Dane firmy
+ Nip
+ Numer telefonu
+ Adres e-mail
+formfileld Podstawowe zgody:
+ sekcja
+  check Akceptacja regulaminu i polityki prywatności.![image](https://github.com/user-attachments/assets/14361388-a65f-4cbd-8524-9f090a87b2b0)
+  check Zgoda na przetwarzanie danych osobowych zgodnie z obowiązującymi przepisami (np. RODO).
+
+formfileld Zgody marketingowe
+ sekcja
+  check Akceptacja regulaminu i polityki prywatności.
+  check Zgoda na przetwarzanie danych osobowych zgodnie z obowiązującymi przepisami (np. RODO).
+
+
+
+```
+
 **Uwagi:**  
 Wszystkie zgody, pobierane przez integrację z repozytorium zgód, są dobrowolne (poza tymi obowiązkowymi) i mogą być w każdej chwili wycofane. Klient zostanie poinformowany o częstotliwości kontaktu oraz sposobie przetwarzania danych marketingowych.
 
