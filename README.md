@@ -26,9 +26,15 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
   - Adres e-mail  
   - Akceptacja regulaminu, polityki prywatności oraz zgoda na przetwarzanie danych (np. RODO).
 
+## 2. Weryfikacja e-mail [Klient]
+- **Opis:**  
+  Po podaniu adresu e-mail klient otrzymuje wiadomość e-mail z 4-cyfrowym kodem, który musi wpisać w systemie.  
 
+## 3. Weryfikacja SMS [Klient]
+- **Opis:**  
+  Po podaniu numeru telefonu klient otrzymuje wiadomość SMS z 4-cyfrowym kodem, który musi wprowadzić w systemie, aby przejść dalej.  
 
-## 2. Uzupełnienie Szczegółowych Informacji o Firmie [Klient / System]
+## 4. Uzupełnienie Szczegółowych Informacji o Firmie [Klient / System]
 - **Opis:**  
   System automatycznie pobiera dane z rejestrów publicznych (GUS, KRS, CEIDG) na podstawie NIP-u, a klient uzupełnia brakujące informacje dotyczące finansów oraz danych właścicieli/reprezentantów.
 - **Dane:**  
@@ -44,7 +50,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
     - Dodatkowe dokumenty potwierdzające lub uzupełniające dane
 
 
-## 3. Weryfikacja Tożsamości i Autentyczności Dokumentów – Aplikanta [Aplikant]
+## 5. Weryfikacja Tożsamości i Autentyczności Dokumentów – Aplikanta [Aplikant]
 - **Opis:**  
   Klient przesyła niezbędne dokumenty, a dedykowany aplikant (np. księgowa) weryfikuje ich autentyczność oraz zgodność z danymi pobranymi z rejestrów.
   Sprawdzanie odbywa się na podstawie odpytanie serwisu BIK
@@ -54,7 +60,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
   - Data ważności dowodu
   
 
-## 4. Weryfikacja Tożsamości Reprezentantów [Reprezentanci]
+## 6. Weryfikacja Tożsamości Reprezentantów [Reprezentanci]
 - **Opis:**  
   Dodatkowy proces uruchamiany niezależnie w celu potwierdzenia tożsamości osób reprezentujących firmę.  
   - **Dla JDG:** Dotyczy właściciela.  
@@ -76,7 +82,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
      - Wysłanie informacji o pomyślnej weryfikacji do reprezentantów i wnioskodawcy.
 
 
-## 5. Wewnętrzna Analiza Ryzyka i Ocena Zdolności Kredytowej [Dział analiz]
+## 7. Wewnętrzna Analiza Ryzyka i Ocena Zdolności Kredytowej [Dział analiz]
 - **Opis:**  
   System, po uzyskaniu dodatkowych zgód, odpytuje wywiadownie kredytowe oraz wykorzystuje moduł AI do oceny zdolności kredytowej firmy.
 - **Etapy:**  
@@ -86,7 +92,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
   - Opcjonalna analiza manualna przez zespół analityków.
 
 
-## 6. Wybór Produktu [Klient / Dział ofert]
+## 8. Wybór Produktu [Klient / Dział ofert]
 - **Opis:**  
   Po zakończeniu analizy ryzyka, klient ma możliwość wyboru jednego z 10 dostępnych produktów pożyczkowych. Oferta jest dostosowana do różnych potrzeb – kwota pożyczki, okres spłaty, sposób spłaty (np. stała rata, zmienna rata, odroczona spłata itp.).  
 - **Etapy:**  
@@ -98,7 +104,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
     Wybrany produkt zostaje przypisany do dalszego procesu przygotowania oferty.
 
 
-## 7. Przygotowanie Oferty Kredytowej [Dział ofert]
+## 9. Przygotowanie Oferty Kredytowej [Dział ofert]
 - **Opis:**  
   Na podstawie wyników analizy ryzyka oraz wybranego produktu generowana jest oferta kredytowa, a przygotowywany jest wstępny projekt umowy.
 - **Etapy:**  
@@ -107,7 +113,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
   - Weryfikacja oferty przez dział prawny i finansowy.
 
 
-## 8. Zatwierdzenie Decyzji Kredytowej [Komisja Kredytowa]
+## 10. Zatwierdzenie Decyzji Kredytowej [Komisja Kredytowa]
 - **Opis:**  
   Finalna decyzja o udzieleniu pożyczki podejmowana jest przez kierownictwo lub komisję kredytową, a wynik decyzji jest dokumentowany.
 - **Etapy:**  
@@ -116,7 +122,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
 
 
 
-## 9. Prezentacja Oferty Klientowi [Pracownicy]
+## 11. Prezentacja Oferty Klientowi [Pracownicy]
 - **Opis:**  
   Oferta kredytowa jest przekazywana klientowi, a w razie potrzeby odbywają się negocjacje i modyfikacja warunków.
 - **Etapy:**  
@@ -124,7 +130,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
   - Negocjacje i akceptacja oferty przez klienta.
 
 
-## 10. Finalizacja Umowy i Formalności [Klient / Pracownicy]
+## 12. Finalizacja Umowy i Formalności [Klient / Pracownicy]
 - **Opis:**  
   Po akceptacji oferty, umowa jest podpisywana (elektronicznie lub tradycyjnie) przez wszystkie upoważnione strony oraz archiwizowana.
 - **Etapy:**  
@@ -133,7 +139,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
 
 
 
-## 11. Wypłata Środków [Dział Płatności]
+## 13. Wypłata Środków [Dział Płatności]
 - **Opis:**  
   Po finalizacji umowy następuje realizacja przelewu ustalonej kwoty na wskazane konto firmowe oraz generowanie harmonogramu spłat.
 - **Etapy:**  
@@ -141,7 +147,7 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
   - Generowanie harmonogramu spłat.
 
 
-## 12. Monitorowanie Spłat i Obsługa Posprzedażowa [Obsługa Klienta]
+## 14. Monitorowanie Spłat i Obsługa Posprzedażowa [Obsługa Klienta]
 - **Opis:**  
   System monitoruje terminowość spłat, a zespół windykacyjny i obsługa klienta zapewniają wsparcie podczas trwania pożyczki.
 - **Etapy:**  
