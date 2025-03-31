@@ -71,32 +71,7 @@ Klient otrzymuje kopię podpisanej umowy (może to być w formie papierowej lub 
 Po akceptacji warunków przez klienta system potwierdza podpisanie umowy i dostarcza szczegóły umowy (kwota pożyczki, oprocentowanie, okres spłaty itp.).
 
 
-
-**2. Przekazanie środków**
-
-**Parametry żądania**
-{
-  "loan_id": "123456789",      // ID pożyczki
-  "user_id": "987654321",      // ID klienta
-  "bank_account": "PL61109010140000071219812874", // Numer konta klienta
-  "amount": 10000,             // Kwota do przelania
-  "transfer_method": "bank_transfer" // Metoda transferu (np. "bank_transfer", "cash")
-}
-
-
-**Odpowiedz:**
-
-{
-  "status": "success",
-  "message": "Środki pożyczki zostały pomyślnie przelane na konto klienta.",
-  "transaction_id": "abc123xyz456",
-  "transfer_date": "2025-03-31"
-}
-
-
-Po zatwierdzeniu umowy i przeprowadzeniu weryfikacji system przekaże środki na konto klienta.
-
-**3. Dostarczenie kopii umowy**
+**2. Dostarczenie kopii umowy**
 Po finalizacji umowy klient powinien otrzymać kopię podpisanej umowy, zarówno w formie elektronicznej, jak i papierowej (w zależności od procedur banku). W przypadku umowy elektronicznej można wysłać ją na adres e-mail lub udostępnić w aplikacji mobilnej.
 
 
