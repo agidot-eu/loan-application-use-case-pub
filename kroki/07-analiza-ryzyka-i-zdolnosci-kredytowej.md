@@ -19,16 +19,18 @@ Decyzja kredytowa – API zwraca status: "zatwierdzony", "odrzucony" lub "wymaga
 ```
 
 **Przykładowa odpowiedź API**
+```
 {
     "dti": 0.3,
     "credit_score": 720,
     "loan_amount": 20000,
     "decision": "Zatwierdzony"
 }
-
+```
 
 **Kod API**
 
+```
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
@@ -70,3 +72,5 @@ def analyze_credit():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+```
