@@ -1,6 +1,7 @@
 # 06-wybor-produktu.md
 
 **Przykład API - Wybór produktu pożyczkowego:**
+```
 {
   "loan_amount": 10000,   // Kwota pożyczki
   "loan_term": 24,        // Okres pożyczki w miesiącach
@@ -8,8 +9,9 @@
   "income": 3500,          // Dochód w PLN
   "credit_score": 700      // Wynik kredytowy
 }
+```
 
-
+```
 {
   "status": "success",
   "selected_product": {
@@ -27,3 +29,4 @@
   },
   "message": "Wybór produktu pożyczkowego zakończony sukcesem. Możesz przejść do składania wniosku."
 }
+```
