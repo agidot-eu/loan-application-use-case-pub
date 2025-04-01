@@ -9,13 +9,13 @@ Decyzja kredytowa – API zwraca status: "zatwierdzony", "odrzucony" lub "wymaga
 
 
 **Przykładowe żądanie POST**
-{
+```{
     "income": 5000,
     "expenses": 1500,
     "credit_score": 720,
     "loan_amount": 20000
 }
-
+```
 
 **Przykładowa odpowiedź API**
 {
