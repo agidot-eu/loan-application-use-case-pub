@@ -162,3 +162,53 @@ Modularność: Każdy serwis realizuje określone zadanie, co ułatwia utrzymani
 Przykłady Implementacji: Repozytorium zawiera przykłady zapytań i odpowiedzi dla poszczególnych punktów procesu, co ułatwia zrozumienie przepływu danych między serwisami.
 Elastyczność: System przewiduje możliwość rozbudowy i modyfikacji – np. zmiana logiki oceny ryzyka czy dodanie nowych typów produktów.
 Praktyczne Zastosowanie: Dokumentacja ma służyć jako materiał szkoleniowy, pokazujący zastosowanie nowoczesnych rozwiązań architektonicznych w praktyce biznesowej.
+
+
+# Szablon
+
+```
+:PozyczkaOnline form
+Pożyczka online h3
+
+DaneFirmy section
+ Dane firmy h5
+ Nip textbox
+ NumerTelefonu textbox
+ AdresEmail textbox
+
+Zgody section
+ Zgody h5
+
+PodstawoweZgody formfield
+ Podstawowe zgody label
+ regulamin checkbox - Akceptacja regulaminu i polityki prywatności.
+ przetwazanie checkbox - Zgoda na przetwarzanie danych osobowych zgodnie z obowiązującymi przepisami (np. RODO).
+
+ZgodyMarketingowe formfield
+ Zgody marketingowe label
+ ZgodaTelefon checkbox - Wyrażam zgodę na kontakt telefoniczny w celu przedstawienia mi oferty produktów pożyczkowych firmy XYZ.
+ ZgodaSMS checkbox - Wyrażam zgodę na otrzymywanie wiadomości SMS z informacjami o promocjach, ofertach specjalnych oraz nowościach produktów.
+ ZgodaEmail checkbox -Wyrażam zgodę na otrzymywanie wiadomości e-mail zawierających informacje o produktach, aktualnościach oraz ofertach marketingowych.
+
+Header header
+ LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+ g1
+ Rejestracja link 
+ DaneFinansowe link
+ Realizacja link
+
+Sidebar sidebar
+ column
+  LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+  NazwaFirmy label
+  g2
+ panelmenu
+  Analiza panelmenuitem
+  Klienci panelmenuitem
+ column
+  g3 
+  www.agidot.eu label
+  Copyright Ⓒ 2025 label
+
+
+```
