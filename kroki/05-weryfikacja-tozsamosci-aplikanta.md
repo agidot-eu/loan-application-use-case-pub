@@ -1,4 +1,4 @@
-# 03-weryfikacja-tozsamosci-aplikanta.md
+# 05-weryfikacja-tozsamosci-aplikanta.md
 **Opis:**
 Na tym etapie weryfikowana jest poprawność danych podana przez aplikanta
 Weryfikacja tożsamości może obejmować różne metody, takie jak sprawdzenie numeru PESEL, numeru dowodu osobistego, zdjęć dokumentów tożsamości, czy nawet biometrie (np. rozpoznawanie twarzy).
