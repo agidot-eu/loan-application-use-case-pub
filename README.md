@@ -26,6 +26,9 @@ Szczegóły kroków są opisane w osobnych dokumentach w folderze kroki
   - Adres e-mail  
   - Akceptacja regulaminu, polityki prywatności oraz zgoda na przetwarzanie danych (np. RODO).
 
+![image](https://github.com/user-attachments/assets/348a8141-52ba-4bcb-b27b-7564fbefeae6)
+
+
 ## 2. Weryfikacja e-mail [Klient]
 - **Opis:**  
   Po podaniu adresu e-mail klient otrzymuje wiadomość e-mail z 4-cyfrowym kodem, który musi wpisać w systemie.  
