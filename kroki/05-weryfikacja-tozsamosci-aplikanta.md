@@ -18,6 +18,36 @@ Weryfikacja, czy osoba na zdjęciu pasuje do zdjęcia w dokumencie (jeśli jest 
 
 Status weryfikacji: Po przeprowadzeniu analizy system informuje użytkownika, czy weryfikacja tożsamości zakończyła się sukcesem, czy nie. Jeśli weryfikacja się powiodła, użytkownik może kontynuować składanie wniosku o pożyczkę.
 
+```
+:WeryfikacjaTozsamosci form
+Weryfikacja tożsamości aplikanta h3
+
+DaneOsobowe section
+ Dane osobowe h5
+ Imie textbox - Imię
+ Nazwisko textbox - Nazwisko
+ Pesel textbox - Numer PESEL
+ NumerDokumentu textbox - Numer dokumentu tożsamości
+
+KontaktWeryfikacyjny section
+ Potwierdzenie tożsamości h5
+ NumerTelefonu textbox - Numer telefonu do weryfikacji (SMS)
+ AdresEmail textbox - Adres e-mail do weryfikacji (kod)
+
+DokumentTozsamosci section
+ Dokument tożsamości h5
+ ZdjecieAwersu textbox - Zdjęcie awersu dokumentu (base64)
+ ZdjecieRewersu textbox - Zdjęcie rewersu dokumentu (base64)
+
+ZgodaBiometria section
+ Zgoda na weryfik
+
+```
+
+![image](https://github.com/user-attachments/assets/236786b9-2f24-4cc5-a81b-5ff83e932ad4)
+
+
+
 **Przykladowy request**
 {
   "first_name": "Jan",
