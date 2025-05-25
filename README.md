@@ -166,6 +166,11 @@ Przykłady Implementacji: Repozytorium zawiera przykłady zapytań i odpowiedzi 
 Elastyczność: System przewiduje możliwość rozbudowy i modyfikacji – np. zmiana logiki oceny ryzyka czy dodanie nowych typów produktów.
 Praktyczne Zastosowanie: Dokumentacja ma służyć jako materiał szkoleniowy, pokazujący zastosowanie nowoczesnych rozwiązań architektonicznych w praktyce biznesowej.
 
+## Widok procesu
+1. ![image](https://github.com/user-attachments/assets/348a8141-52ba-4bcb-b27b-7564fbefeae6)
+2. ![image](https://github.com/user-attachments/assets/ca8ac36c-42b5-45a7-a738-ef8ad217e874)
+3. ![image](https://github.com/user-attachments/assets/544cec0a-283b-4c75-9c7a-e8a30a52cdf8)
+
 
 # Szablon
 
