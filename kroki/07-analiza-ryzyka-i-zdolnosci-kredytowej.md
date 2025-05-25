@@ -1,9 +1,53 @@
-# 05-analiza-ryzyka-i-zdolnosci-kredytowej.md
+# 07-analiza-ryzyka-i-zdolnosci-kredytowej.md
 
 Kluczowe funkcje:
 Obliczanie wskaźnika DTI – stosunek długów do dochodów.
 
 Ocena ryzyka – prosta klasyfikacja na podstawie DTI i zdolności do spłaty.
+
+```
+:AnalizaRyzykaIKredytowej form
+Analiza ryzyka i zdolności kredytowej h3
+
+DaneFinansowe section
+ MiesiecznyDochód textbox - Miesięczny dochód netto (PLN)
+ MiesieczneZobowiazania textbox - Miesięczne zobowiązania (PLN)
+
+WskaznikiFinansowe section
+ DTI textbox - Wskaźnik DTI (Debt-To-Income, w %) - obliczany jako (zobowiązania / dochód) * 100
+ CzyDTIOk checkbox - DTI w akceptowalnym zakresie
+
+OcenaRyzyka section
+ Ocena dropdown datasource="['niskie','średnie','wysokie']" - Klasyfikacja poziomu ryzyka na podstawie danych
+ KomentarzAnalizy textbox - Komentarz analityka
+
+DecyzjaKredytowa section
+ StatusDecyzji dropdown datasource="['zatwierdzony','odrzucony','wymaga analizy']" - Status decyzji kredytowej
+ Uzasadnienie textbox - Uzasadnienie decyzji lub dalszych kroków
+
+Header header
+ LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+ g1
+ Rejestracja link 
+ DaneFinansowe link
+ Realizacja link
+
+Sidebar sidebar
+ column
+  LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+  NazwaFirmy label
+  g2
+ panelmenu
+  Analiza panelmenuitem
+  Klienci panelmenuitem
+ column
+  g3 
+  www.agidot.eu label
+  Copyright Ⓒ 2025 label
+
+```
+![image](https://github.com/user-attachments/assets/5c41ccd4-3d65-41b2-a7cf-481c471744bb)
+
 
 Decyzja kredytowa – API zwraca status: "zatwierdzony", "odrzucony" lub "wymaga analizy".
 
