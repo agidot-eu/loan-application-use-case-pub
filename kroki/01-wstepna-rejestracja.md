@@ -28,27 +28,29 @@ System łączy się z repozytorium zgód, które zwraca listę zgód startowych 
 
 
 ```
-dynamic-forms
-sekcja
- h3 Pożyczka online
-sekcja
- h5 Dane firmy
- Nip
- Numer telefonu
- Adres e-mail
-formfileld Podstawowe zgody:
- sekcja
-  check Akceptacja regulaminu i polityki prywatności.![image](https://github.com/user-attachments/assets/14361388-a65f-4cbd-8524-9f090a87b2b0)
-  check Zgoda na przetwarzanie danych osobowych zgodnie z obowiązującymi przepisami (np. RODO).
+:WstepnaRejestracja form
+Wstępna rejestracja i pozyskanie podstawowych danych h3
 
-formfileld Zgody marketingowe
- sekcja
-  check Akceptacja regulaminu i polityki prywatności.
-  check Zgoda na przetwarzanie danych osobowych zgodnie z obowiązującymi przepisami (np. RODO).
+Dane firmy section
+ Nip textbox - Kluczowy identyfikator firmy (NIP) umożliwiający weryfikację w rejestrach publicznych.
+ NumerTelefonu textbox - Numer telefonu
+ AdresEmail textbox - Adres e-mail
 
+Zgody section
 
+ PodstawoweZgody formfield
+  regulamin checkbox - Akceptacja regulaminu i polityki prywatności.
+  przetwarzanie checkbox - Zgoda na przetwarzanie danych osobowych zgodnie z obowiązującymi przepisami (np. RODO).
+
+ MarketingZgody formfield
+  telefon checkbox - Wyrażam zgodę na kontakt telefoniczny w celu przedstawienia mi oferty produktów pożyczkowych firmy XYZ.
+  sms checkbox - Wyrażam zgodę na otrzymywanie wiadomości SMS z informacjami o promocjach, ofertach specjalnych oraz nowościach produktów.
+  email checkbox - Wyrażam zgodę na otrzymywanie wiadomości e-mail zawierających informacje o produktach, aktualnościach oraz ofertach marketingowych.
 
 ```
+
+![image](https://github.com/user-attachments/assets/348a8141-52ba-4bcb-b27b-7564fbefeae6)
+
 
 **Uwagi:**  
 Wszystkie zgody, pobierane przez integrację z repozytorium zgód, są dobrowolne (poza tymi obowiązkowymi) i mogą być w każdej chwili wycofane. Klient zostanie poinformowany o częstotliwości kontaktu oraz sposobie przetwarzania danych marketingowych.
