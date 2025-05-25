@@ -1,4 +1,52 @@
-# 06-wybor-produktu.md
+# 08-wybor-produktu.md
+
+```
+:WyborProduktu form
+Wybór produktu pożyczkowego h3
+
+ParametryPozyczki section
+ Parametry pożyczki h5
+ KwotaPozyczki textbox - Kwota pożyczki (PLN)
+ OkresPozyczki textbox - Okres pożyczki (w miesiącach)
+ TypPozyczki dropdown datasource="['personal','mortgage','consolidation']" - Typ pożyczki
+ Dochod textbox - Miesięczny dochód (PLN)
+ CreditScore textbox - Wynik kredytowy (np. 700)
+
+WybranyProdukt section
+ Wybrany produkt h5
+ NazwaProduktu textbox - Nazwa produktu
+ Oprocentowanie textbox - Oprocentowanie (%)
+ RataMiesieczna textbox - Miesięczna rata (PLN)
+ KwotaDoSplaty textbox - Całkowita kwota do spłaty (PLN)
+ WarunkiProduktu datagrid
+  Warunek column
+
+Informacja textbox - Komunikat od systemu (np. informacja o powodzeniu wyboru produktu)
+
+Header header
+ LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+ g1
+ Rejestracja link 
+ DaneFinansowe link
+ Realizacja link
+
+Sidebar sidebar
+ column
+  LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+  NazwaFirmy label
+  g2
+ panelmenu
+  Analiza panelmenuitem
+  Klienci panelmenuitem
+ column
+  g3 
+  www.agidot.eu label
+  Copyright Ⓒ 2025 label
+
+```
+
+![image](https://github.com/user-attachments/assets/0f6d8983-f5c9-42c8-98e0-be231e0488d2)
+
 
 **Przykład API - Wybór produktu pożyczkowego:**
 ```
