@@ -31,6 +31,63 @@ System integruje się z rejestrami publicznymi (np. GUS, KRS, CEIDG) i pobiera n
   - Rodzaj reprezentacji (np. właściciel, wspólnik, członek zarządu)
   - Zakres uprawnień
 
+
+```
+:RejestracjaFirmy form
+Rejestracja firmy - dane podstawowe h3
+
+Dane pobierane automatycznie section
+ Nip textbox - Numer Identyfikacji Podatkowej
+ Regon textbox - REGON
+ NazwaFirmy textbox - Pełna nazwa firmy
+ FormaPrawna textbox - Forma prawna działalności
+ StatusDzialalnosci textbox - Status działalności gospodarczej
+ DataRejestracji textbox - Data rejestracji w rejestrze
+ KodyPKD textbox - Kody PKD
+
+Adresy formfield
+ Adresy firmy label
+ AdresSiedziby textbox - Adres siedziby firmy
+ AdresKorespondencyjny textbox - Adres do korespondencji (jeśli inny)
+
+Reprezentanci datagrid
+ Reprezentanci / Właściciele firmy h5
+ ImieNazwisko column
+ Pesel column
+ RodzajReprezentacji column
+ ZakresUprawnien column
+
+Dane uzupełniane ręcznie section
+ KondycjaFinansowa textbox - Informacje o kondycji finansowej firmy
+ StrukturaWlasnosci textbox - Struktura właścicielska (opisowa)
+ CzyDanePelne checkbox - Oświadczam, że dane są kompletne i zgodne z prawdą
+
+Header header
+ LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+ g1
+ Rejestracja link 
+ DaneFinansowe link
+ Realizacja link
+
+Sidebar sidebar
+ column
+  LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+  NazwaFirmy label
+  g2
+ panelmenu
+  Analiza panelmenuitem
+  Klienci panelmenuitem
+ column
+  g3 
+  www.agidot.eu label
+  Copyright Ⓒ 2025 label
+
+```
+
+![image](https://github.com/user-attachments/assets/9646d5ea-4c67-4352-b223-eb5f3debcb60)
+
+
+
 ### Przykładowy Request do API GUS/KRS
 ```http
 GET /api/company-info?nip=1234567890 HTTP/1.1
