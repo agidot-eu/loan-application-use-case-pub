@@ -170,6 +170,13 @@ Praktyczne Zastosowanie: Dokumentacja ma służyć jako materiał szkoleniowy, p
 1. ![image](https://github.com/user-attachments/assets/348a8141-52ba-4bcb-b27b-7564fbefeae6)
 2. ![image](https://github.com/user-attachments/assets/ca8ac36c-42b5-45a7-a738-ef8ad217e874)
 3. ![image](https://github.com/user-attachments/assets/544cec0a-283b-4c75-9c7a-e8a30a52cdf8)
+4. ![image](https://github.com/user-attachments/assets/9646d5ea-4c67-4352-b223-eb5f3debcb60)
+5. ![image](https://github.com/user-attachments/assets/236786b9-2f24-4cc5-a81b-5ff83e932ad4)
+6. ![image](https://github.com/user-attachments/assets/1d4f36d6-b4af-4668-9d15-be0f9195efc2)
+7. ![image](https://github.com/user-attachments/assets/5c41ccd4-3d65-41b2-a7cf-481c471744bb)
+8. ![image](https://github.com/user-attachments/assets/0f6d8983-f5c9-42c8-98e0-be231e0488d2)
+9. ![image](https://github.com/user-attachments/assets/cfc4beda-0f72-478f-baf1-5db820da3bcb)
+10. ![image](https://github.com/user-attachments/assets/d3004fc1-e3c1-421a-aba2-bab80b89d4a4)
 
 
 # Szablon
