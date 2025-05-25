@@ -1,4 +1,68 @@
-# 07-przygotowanie-oferty-kredytowej.md
+# 09-przygotowanie-oferty-kredytowej.md
+```
+:PrzygotowanieOfertyKredytowej form
+Przygotowanie oferty kredytowej h3
+
+DaneKlienta section
+ Dane klienta h5
+ KwotaPozyczki textbox - Kwota pożyczki (PLN)
+ OkresPozyczki textbox - Okres spłaty (w miesiącach)
+ TypPozyczki dropdown datasource="['personal','mortgage']" - Typ pożyczki
+ Dochod textbox - Miesięczny dochód (PLN)
+ CreditScore textbox - Wynik kredytowy
+ StatusZatrudnienia dropdown datasource="['full_time','self_employed','part_time','unemployed']" - Status zatrudnienia
+
+IstniejacePozyczki datagrid
+ Istniejące pożyczki klienta h5
+ TypPozyczki column
+ SaldoPozostale column
+ RataMiesieczna column
+
+OfertaKredytowa section
+ Oferta kredytowa h5
+ NazwaProduktu textbox - Nazwa produktu
+ KwotaPrzyznana textbox - Kwota przyznana (PLN)
+ Oprocentowanie textbox - Oprocentowanie (% rocznie)
+ Okres textbox - Okres pożyczki (miesiące)
+ RataMiesieczna textbox - Miesięczna rata (PLN)
+ KwotaLacznaDoSplaty textbox - Całkowita kwota do spłaty (PLN)
+ DostepnaKwota textbox - Dostępna kwota (PLN)
+
+HarmonogramSplaty datagrid
+ Harmonogram spłat
+ Miesiac column
+ KwotaRaty column
+
+WarunkiOferty datagrid
+ Warunki oferty
+ Warunek column
+
+Informacja textbox - Komunikat systemowy (np. "Oferta kredytowa została przygotowana...")
+
+Header header
+ LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+ g1
+ Rejestracja link 
+ DaneFinansowe link
+ Realizacja link
+
+Sidebar sidebar
+ column
+  LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+  NazwaFirmy label
+  g2
+ panelmenu
+  Analiza panelmenuitem
+  Klienci panelmenuitem
+ column
+  g3 
+  www.agidot.eu label
+  Copyright Ⓒ 2025 label
+
+```
+
+![image](https://github.com/user-attachments/assets/cfc4beda-0f72-478f-baf1-5db820da3bcb)
+
 
 Przygotowanie oferty kredytowej przez bank w odpowiedzi na wniosek o pożyczkę zwykle odbywa się po tym, jak bank zbierze wszystkie niezbędne informacje o kliencie (np. dochody, historię kredytową) i dokona analizy zdolności kredytowej. Następnie generuje ofertę, która zawiera szczegóły pożyczki (wysokość kwoty, oprocentowanie, okres spłaty, miesięczna rata itp.).
 
