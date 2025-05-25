@@ -1,4 +1,3 @@
-Zapoznałem się z tym, spróbujemy to omówić jutro jeszcze 
 
 # 2. Uzupełnienie Szczegółowych Informacji o Firmie [Klient / System]
 
