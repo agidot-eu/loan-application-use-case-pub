@@ -1,5 +1,5 @@
 
-# 2. Uzupełnienie Szczegółowych Informacji o Firmie [Klient / System]
+# 4. Uzupełnienie Szczegółowych Informacji o Firmie [Klient / System]
 
 ## Opis
 Na tym etapie system automatycznie pobiera podstawowe dane firmy z rejestrów publicznych na podstawie numeru NIP, a klient uzupełnia brakujące informacje dotyczące kondycji finansowej oraz struktury właścicielskiej. Proces ten minimalizuje wysiłek klienta i redukuje błędy, dzięki czemu dane są spójne i aktualne.
