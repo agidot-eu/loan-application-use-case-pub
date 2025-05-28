@@ -193,7 +193,8 @@ Sidebar sidebar
   www.agidot.eu label
   Copyright Ⓒ 2025 label
 ```
-![image](https://github.com/user-attachments/assets/7adcb588-3a54-43d6-a07d-12bc5a0b7693)
+![image](https://github.com/user-attachments/assets/f9550878-4ca5-48b4-b02d-a8a791176bb3)
+
 
 
 
