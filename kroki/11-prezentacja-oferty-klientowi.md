@@ -8,17 +8,17 @@ Dziękujemy za zainteresowanie naszą ofertą pożyczki. Na podstawie informacji
 
 Oto szczegóły oferty: section
  Kwota pożyczki: h6
- 10 000 PLN textbox ,
+ 10 000 PLN h5,
  Okres spłaty: h6
- 24 miesiące textbox 
+ 24 miesiące h5
  Oprocentowanie: h6
- 8,5% rocznie textbox 
+ 8,5% rocznie h5
  Miesięczna rata: h6
- 500 PLN textbox 
+ 500 PLN h5
  Całkowita kwota do spłaty: h6
- 12 000 PLN textbox 
+ 12 000 PLN h5
  Całkowity koszt pożyczki (odsetki): h6
- 2 000 PLN textbox 
+ 2 000 PLN h5
 
 
  Harmonogram spłat h3
@@ -193,7 +193,8 @@ Sidebar sidebar
   www.agidot.eu label
   Copyright Ⓒ 2025 label
 ```
-![image](https://github.com/user-attachments/assets/f9550878-4ca5-48b4-b02d-a8a791176bb3)
+![image](https://github.com/user-attachments/assets/f215ee04-8885-4c75-9834-e4440d4f7f3b)
+
 
 
 
