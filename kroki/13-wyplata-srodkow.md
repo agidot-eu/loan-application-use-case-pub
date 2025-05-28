@@ -1,5 +1,48 @@
 # 11-wyplata-srodkow.md
 
+```
+:PrzekazanieŚrodków form
+Przekazanie środków h3
+
+DanePrzelewu section
+ Dane przelewu h5
+ ID_pozyczki textbox - ID pożyczki
+ ID_klient textbox - ID klienta
+ Nr konta textbox - Numer konta bankowego (IBAN)
+
+Podsumowanie section
+ Podsumowanie operacji h5
+ status label - Status operacji
+ message label - Komunikat systemowy
+ transaction_id label - ID transakcji
+ transfer_date label - Data przelewu
+
+Header header
+ LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+ g1
+ Rejestracja link 
+ DaneFinansowe link
+ Realizacja link
+
+Sidebar sidebar
+ column
+  LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+  NazwaFirmy label
+  g2
+ panelmenu
+  Analiza panelmenuitem
+  Klienci panelmenuitem
+ column
+  g3 
+  www.agidot.eu label
+  Copyright Ⓒ 2025 label
+
+```
+![image](https://github.com/user-attachments/assets/1fcec705-53b6-4642-ba26-e1a111efb5fa)
+
+
+
+
 **Przekazanie środków**
 
 **Parametry żądania**
