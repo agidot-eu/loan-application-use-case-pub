@@ -1,5 +1,45 @@
 # 10-finalizacja-umowy-i-formalnosci.md
 
+```
+:FinalizacjaUmowy form
+Finalizacja umowy h3
+
+Potwierdzenie danych i akceptacja warunków section
+Potwierdzenie danych checkbox - Potwierdzam że wszystkie dane są poprawne
+Anceptacja checkbox - Akceptuje warunki uzyskania pożyczki
+
+Weryfikacja sms h3
+
+Instrukcja label - Na podany numer telefonu został wysłany 4-cyfrowy kod weryfikacyjny.
+
+KodWeryfikacyjny textbox - Wprowadź kod
+Zweryfikuj kod button - Zweryfikuj kod
+
+Wyslij ponownie kod button - Wyślij ponownie kod
+
+Header header
+ LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+ g1
+ Rejestracja link 
+ DaneFinansowe link
+ Realizacja link
+
+Sidebar sidebar
+ column
+  LogoFirmy img datasource="https://structura.agidot.eu/api/upload-image/get/image-13.png"
+  NazwaFirmy label
+  g2
+ panelmenu
+  Analiza panelmenuitem
+  Klienci panelmenuitem
+ column
+  g3 
+  www.agidot.eu label
+  Copyright Ⓒ 2025 label
+```
+
+![image](https://github.com/user-attachments/assets/b12174ea-3eb4-4874-9ae1-0d2d0a22fbc1)
+
 
 
 Finalizacja umowy pożyczkowej to ostatni etap procesu kredytowego, w którym klient podejmuje decyzję o podpisaniu umowy na warunkach, które zostały mu zaprezentowane w ofercie. W tym kroku dochodzi do formalnego zawarcia umowy pożyczkowej pomiędzy pożyczkobiorcą a pożyczkodawcą (bankiem lub instytucją finansową). Finalizacja obejmuje m.in. potwierdzenie warunków umowy, podpisanie umowy (w formie tradycyjnej lub cyfrowej) oraz przekazanie środków na konto pożyczkobiorcy.
